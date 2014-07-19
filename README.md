@@ -1,4 +1,4 @@
-MODXPackage
+UserPermissions
 ===========
 
-This is template of MODX Revo package builder
+Simple plugin which allow to change behaviour at frontend according to the user's permissions
