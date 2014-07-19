@@ -3,7 +3,7 @@
 $plugins = array();
 
  
-$plugin_name = 'UserPermissions';
+$plugin_name = 'userPermissions';
 $content = getSnippetContent($sources['plugins'] . $plugin_name . '.plugin.php');
 
 if(!empty($content)){

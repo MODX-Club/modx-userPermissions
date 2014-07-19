@@ -10,7 +10,7 @@ define('NAMESPACE_NAME', PKG_NAME_LOWER);
 define('PKG_PATH', PKG_NAME_LOWER);
 define('PKG_CATEGORY', PKG_NAME);
 
-$pkg_version = '0.1.0';
+$pkg_version = '0.2.0';
 $pkg_release = 'beta';
 define('PKG_VERSION', $pkg_version);
 define('PKG_RELEASE', $pkg_release);
@@ -74,7 +74,7 @@ include_once $sources['builder_includes'] . 'namespace.php';
 include_once $sources['builder_includes'] . 'category.php';
 
 /* add plugins */
-# include_once $sources['builder_includes'] . 'plugins.php';
+include_once $sources['builder_includes'] . 'plugins.php';
 
 /* add snippets */
 # include_once $sources['builder_includes'] . 'snippets.php';
